@@ -1,0 +1,6 @@
+openca-tools (1.4.0-1) unstable; urgency=low
+
+  * Patched release from the OpenXPKI team for sha support in scep 
+
+ -- OpenXPKI Foundation <debian@openxpki.org>  Fri, 01 Mar 2013 10:19:35 +0100
+ 
