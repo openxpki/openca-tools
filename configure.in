@@ -384,12 +384,12 @@ AM_CONDITIONAL(OPENSSL_PREFIX, test x$openssl_prefix != x )
 
 dnl OpenSSL Engine Support
 AC_ARG_ENABLE( openssl-engine,
-[  --enable-engine             enable openssl engine support (yes)],
+[  --enable-engine             enable openssl engine support (no)],
 [case "${enableval}" in
   yes)	engine=true ;;
   no)	engine=false ;;
   *) AC_MSG_ERROR([bad value ${engine} for --enable-engine]) ;;
- esac], [engine=true])
+ esac], [engine=false])
 
 AC_MSG_RESULT([enable engine support   : $engine])
 

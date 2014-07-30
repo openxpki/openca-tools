@@ -1613,7 +1613,7 @@ Optional Features:
   --enable-dependency-tracking   do not reject slow dependency extractors
   --enable-maintainer-mode  enable make rules and dependencies not useful
 			  (and sometimes confusing) to the casual installer
-  --enable-engine             enable openssl engine support (yes)
+  --enable-engine             enable openssl engine support (no)
   --enable-debug          enable debug messages.
 
 Optional Packages:
@@ -14680,7 +14680,7 @@ $as_echo "$as_me: error: bad value ${engine} for --enable-engine" >&2;}
    { (exit 1); exit 1; }; } ;;
  esac
 else
-  engine=true
+  engine=false
 fi
 
 

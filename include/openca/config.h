@@ -89,4 +89,4 @@
 /* #undef TARGET_SOLARIS */
 
 /* Version number of package */
-#define VERSION "1.3.0"
+#define VERSION "1.4.0"
